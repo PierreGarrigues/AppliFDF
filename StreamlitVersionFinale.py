@@ -18,7 +18,7 @@ st.set_page_config(layout="wide")
 
 st.title("Projet Feux de Forêt")
 st.sidebar.title("Sommaire")
-pages=["Introduction","Analyse", "Datavisualisation", "Prédiction", "Conclusion"]
+pages=["Introduction","Analyse", "Datavisualisation", "Conclusion"]
 page=st.sidebar.radio("Aller vers", pages)
 
 #Création des DF - Partie Analyses
@@ -528,7 +528,7 @@ if page == pages[2]:
         st.subheader("Conclusion Datavisualisation")
         st.markdown(cl_comment)
 
-
+'''
 
 if page == pages[3]:
     st.title("Partie 3 : Prédiction du nombre de feux")
@@ -691,8 +691,8 @@ if page == pages[3]:
     st.write("Voici les métriques associées au modèle sélectionné :")
     st.dataframe(df_resultats)
 
-
-if page == pages[4]:
+'''
+if page == pages[3]:
     st.write("Notre modèle pourrait être facilement amélioré par **l'accès à de nouvelles données**.")
     st.write("Sur ces deux graphiques, nous observons par exemple la relation entre **répartition des forces de pompiers, et nombre et étendue des feux**, dans l'Etat de New York.")
     st.image("Pompiers_Feux.jpg")
