@@ -155,7 +155,7 @@ if page == pages[1]:
     st.write(f"Entre 1992 et 2003, {int(Moyenne_1)} feux de forêt se déclaraient en moyenne annuellement, avec un pic à {Max_1} .  \nEntre 2004 et 2015, cette moyenne annuelle passe à {int(Moyenne_2)} feux, avec un pic à {Max_2}.")
     st.write(f"Cette tendance se répercute sur l'étendue totale brûlée, avec {int(Moyenne_Area1)} km² incendiés en moyenne chaque année entre 1992 et 2003, contre {int(Moyenne_Area2)}km² entre 2004 et 2015.")
     
-    st.write("La datavizualisation nous permet de creuser ces résultats.")
+    st.write("La datavisualisation nous permet de creuser ces résultats.")
 
 if page == pages[2]:
     st.title("Partie 2 : Datavisualisation")
@@ -512,7 +512,7 @@ if page == pages[2]:
         ## Conclusion partie
    
         cl_comment = """
-        Nous avons utiliser notre dataset d'origine ainsi que des données enrichies avec les données météorologiques.
+        Nous avons utilisé notre dataset d'origine ainsi que des données enrichies avec les données météorologiques.
         Malgré l'enrichissement de notre ensemble de données avec des informations météorologiques, nous n'observons toujours pas de corrélations significatives entre les variables. 
         
         Cependant, nous pouvons tirer quelques observations importantes :
